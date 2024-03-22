@@ -1,8 +1,7 @@
 # TAFSSR
 
 
-**we propose a novel approach that incorporates the Transformer into the model to learn global contextual information
-and better capture long-range relationships within LF structures. During the feature fusion process, each feature extractor contains different information from the 4D LF dataset. Since directly concatenating all branch outputs may not be a preferable solution, we propose an attention fusion operation to weightedly combine the features from each branch.**
+**we propose a novel approach that incorporates the Transformer into the model to learn global contextual information and better capture long-range relationships within LF structures. During the feature fusion process, each feature extractor contains different information from the 4D LF dataset. Since directly concatenating all branch outputs may not be a preferable solution, we propose an attention fusion operation to weightedly combine the features from each branch.**
 
 
 <br>
@@ -13,9 +12,20 @@ and better capture long-range relationships within LF structures. During the fea
 * **We share the codes, models and results of existing methods to help researchers better get access to this area.**
 
 
+## Code
+##  Please download our code via[github]: https://github.com/ouyangbaokang/TAFSSR.git 
+##  The trained model is TAFSSR/pth/DistgSSR_o_5x5_4x_epoch_50_model.pth
+
+## NTIRE 2024 Light Field Image Super-Resolution Challenge Competition Results
+## [Baidu Drive]：https://pan.baidu.com/s/1J0oT1YtnkJ2zV2tqctcv7Q?pwd=25qr (key：25qr) ** 
+
 ## Datasets
-**We used the EPFL, HCInew, HCIold, INRIA and STFgantry datasets for both training and test. 
+**We used the EPFL, HCInew, HCIold, INRIA and STFgantry datasets for training. 
 Please first download our datasets via [Baidu Drive](https://pan.baidu.com/s/1AyMJUSwwDf9T7Tr8xhs1nw) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EpkUehGwOlFIuSSdadq9S4MBEeFkNGPD_DlzkBBmZaV_mA?e=FiUeiv), and place the 5 datasets to the folder `./datasets/`.**
+** We used the real and synth data for validation. 
+Please first download our datasets via [Baidu Drive](https://pan.baidu.com/s/1AyMJUSwwDf9T7Tr8xhs1nw) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EpkUehGwOlFIuSSdadq9S4MBEeFkNGPD_DlzkBBmZaV_mA?e=FiUeiv), and place the 5 datasets to the folder `./datasets/`.**
+** a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera.
+[OneDrive] (https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EiEJwlGY3SZDi0FMvHsIMUMB2c73kFsAqELkeidVGoOsKA?e=xHhOEG), and place the 5 datasets to the folder `./datasets/`.**
 
 * **Our project has the following structure:**
   ```
