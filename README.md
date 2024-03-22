@@ -1,4 +1,4 @@
-# TAFNet
+# TAFSSR
 
 
 **we propose a novel approach that incorporates the Transformer into the model to learn global contextual information
@@ -107,6 +107,6 @@ Please first download our datasets via [Baidu Drive](https://pan.baidu.com/s/1Ay
 <br>
 
 ## Contact
-**Welcome to raise issues or email to [zyliang@nudt.edu.cn] for any question regarding our TARSSR.**
+**Welcome to raise issues or email to [hrzh.cq@outlook.com] for any question regarding our TAFSSR.**
 
 
